@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;   
+}
+
+header{
+    box-shadow: 1px 1px 10px 1px #BDBDBD;
+}
+
+header h1{
+    font-size: 50px;
+}
+header span {
+    color: #4700BC ;
+    
+}
+
+.logo{
+    
+    display:flex; 
+}
+
+.logo p{
+    margin: 23px;
+    padding: 0;
+    color: #4700BC;
+    font-size: 25px;
+    text-shadow: 0px 7px 9px #4700BC;
+}
+
+.dPessoais{
+    margin-top: 15px;
+    
+}
+
+.dPessoais p{
+    color: #4700BC;
+    box-shadow: 1px 2px #BDBDBD;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.endereco{
+    margin-top: 15px;
+    
+}
+.endereco p {
+    color: #4700BC;
+    box-shadow: 1px 2px #BDBDBD;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contato{
+    margin-top: 15px;
+}
+
+.contato p{
+    color: #4700BC;
+    box-shadow: 1px 2px #BDBDBD;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.docs{
+    margin-top: 15px;
+}
+
+.docs p{
+    color: #4700BC;
+    box-shadow: 1px 2px #BDBDBD;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bt{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#bt{
+    box-shadow: 0px 10px 14px -7px #4700BC;
+	background-color:#4700BC;
+	border-radius:8px;
+	display: inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4700BC;
+    transition: 200ms;
+}
+
+#bt:hover{
+    background-color: #4700BC;
+}
+
+#bt:active{
+    position:relative; 
+    top:1px;
+}
+
+label{
+    display: inline-block;
+    text-align: left;
+    margin: 1px 0;
+    padding-top: 10px;
+}
+
+label span{
+    color: red;
+}
+
+input{
+    width: 25%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 3px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
